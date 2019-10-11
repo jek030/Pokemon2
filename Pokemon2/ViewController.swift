@@ -17,13 +17,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var nameLabel: UILabel!
     
-    
+
+    @IBOutlet weak var pokedexButton: UIButton!
     @IBOutlet weak var displayPokemonImageButton: UIButton!
     
     var pokedex = [Pokemon]()
     var starterPokemon = [Pokemon]()
     
-    
+    func getPokedex() -> [Pokemon]{
+        return pokedex
+    }
 
     
     
@@ -33,10 +36,23 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         //displayPokemonImageButton.setImage(UIImage(named: "egg"), for: .normal)
-        print("Name: " + pokedex[0].getName())
-        print("ID: " + String(pokedex[0].pokedexID))
+        navigationItem.title = "Pokemon"
     }
     
+    
+    @IBAction func pokedexButtonClicked(_ sender: Any) {
+        //let storyboard = UIStoryboard(name: "Main", bundle: nil);
+        //if let vc = storyboard?.instantiateViewController(withIdentifier: "Pokedex") as? PokedexTableViewController {
+            //vc.pokedex = pokedex
+            //for pokemon in pokedex{
+            //    vc.pokedex[pokemon] = pokedex[pokemon]
+           // }
+        
+            performSegue(withIdentifier: "SegueToPokedex", sender: self)
+           // navigationController?.pushViewController(vc, animated: true)
+       // }
+       
+    }
     
     @IBAction func pokemonTapped(_ sender: Any) {
         let starter = starterPokemon.randomElement()

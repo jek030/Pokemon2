@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F3B36892350059D00FDCE6E /* PokedexTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F3B36882350059D00FDCE6E /* PokedexTableViewController.swift */; };
 		5F833BBF234C3B270030FF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F833BBE234C3B270030FF2A /* AppDelegate.swift */; };
 		5F833BC1234C3B270030FF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F833BC0234C3B270030FF2A /* ViewController.swift */; };
 		5F833BC4234C3B270030FF2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F833BC2234C3B270030FF2A /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F3B36882350059D00FDCE6E /* PokedexTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexTableViewController.swift; sourceTree = "<group>"; };
 		5F833BBB234C3B270030FF2A /* Pokemon2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemon2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F833BBE234C3B270030FF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F833BC0234C3B270030FF2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		5F833BBD234C3B270030FF2A /* Pokemon2 */ = {
 			isa = PBXGroup;
 			children = (
+				5F3B36882350059D00FDCE6E /* PokedexTableViewController.swift */,
 				5F833BBE234C3B270030FF2A /* AppDelegate.swift */,
 				5F833BC0234C3B270030FF2A /* ViewController.swift */,
 				5F833BD0234C3BB30030FF2A /* Pokemon.swift */,
@@ -144,6 +147,7 @@
 				5F833BC1234C3B270030FF2A /* ViewController.swift in Sources */,
 				5F833BBF234C3B270030FF2A /* AppDelegate.swift in Sources */,
 				5F833BD3234C3BDA0030FF2A /* DisplayPokemon.swift in Sources */,
+				5F3B36892350059D00FDCE6E /* PokedexTableViewController.swift in Sources */,
 				5F833BD1234C3BB30030FF2A /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
