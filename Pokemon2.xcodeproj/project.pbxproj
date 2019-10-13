@@ -15,6 +15,7 @@
 		5F833BC9234C3B290030FF2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F833BC7234C3B290030FF2A /* LaunchScreen.storyboard */; };
 		5F833BD1234C3BB30030FF2A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F833BD0234C3BB30030FF2A /* Pokemon.swift */; };
 		5F833BD3234C3BDA0030FF2A /* DisplayPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F833BD2234C3BDA0030FF2A /* DisplayPokemon.swift */; };
+		5F915AD7235286E9006F5697 /* Pokedex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F915AD6235286E9006F5697 /* Pokedex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		5F833BCA234C3B290030FF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F833BD0234C3BB30030FF2A /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		5F833BD2234C3BDA0030FF2A /* DisplayPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPokemon.swift; sourceTree = "<group>"; };
+		5F915AD6235286E9006F5697 /* Pokedex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokedex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				5F833BBE234C3B270030FF2A /* AppDelegate.swift */,
 				5F833BC0234C3B270030FF2A /* ViewController.swift */,
 				5F833BD0234C3BB30030FF2A /* Pokemon.swift */,
+				5F915AD6235286E9006F5697 /* Pokedex.swift */,
 				5F833BD2234C3BDA0030FF2A /* DisplayPokemon.swift */,
 				5F833BC2234C3B270030FF2A /* Main.storyboard */,
 				5F833BC5234C3B290030FF2A /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				5F833BC1234C3B270030FF2A /* ViewController.swift in Sources */,
 				5F833BBF234C3B270030FF2A /* AppDelegate.swift in Sources */,
+				5F915AD7235286E9006F5697 /* Pokedex.swift in Sources */,
 				5F833BD3234C3BDA0030FF2A /* DisplayPokemon.swift in Sources */,
 				5F3B36892350059D00FDCE6E /* PokedexTableViewController.swift in Sources */,
 				5F833BD1234C3BB30030FF2A /* Pokemon.swift in Sources */,

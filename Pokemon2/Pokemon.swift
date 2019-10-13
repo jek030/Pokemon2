@@ -14,7 +14,7 @@ class Pokemon {
     var level: Int
     var currentNumSteps: Int //number of steps at the current level
     var totalNumSteps: Int //total number of steps pokemon
-    var pokedexID: Int //id number in the pokedex
+    var pokedexID: String //id number in the pokedex
     
     var eggHatchedDate:String
     
@@ -22,7 +22,7 @@ class Pokemon {
     var isEgg: Bool // is the pokemon still an egg
     
     
-    init(name:String, pokedexID: Int) {
+    init(name:String, pokedexID: String) {
         self.name = name
         self.pokedexID = pokedexID
         self.level = 0
@@ -57,6 +57,10 @@ class Pokemon {
     
     func getName() -> String {
         return self.name
+    }
+    
+    func getPokedexID() -> String {
+        return self.pokedexID
     }
     
 }

@@ -10,6 +10,8 @@ import UIKit
 import WebKit
 
 class PokedexTableViewController: UITableViewController {
+    
+    var pokedex_object = Pokedex()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,19 +28,22 @@ class PokedexTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    //override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
+    //    return 0
+    //}
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return pokedex_object.pokedex.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Pokemon", for: indexPath) // dequeues recycled cells from table so you can keep scrolling
-        //cell.textLabel?.text =  pokedex[indexPath.row].getName() // sets the name for the pokemon
+    
+        
+        cell.textLabel?.text =   "#" + String(pokedex_object.pokedex[indexPath.row].getPokedexID())  + "   " + pokedex_object.pokedex[indexPath.row].getName() // sets the name for the pokemon
+        cell.imageView?.image = UIImage(named: pokedex_object.pokedex[indexPath.row].getName())
         return cell
     }
 
