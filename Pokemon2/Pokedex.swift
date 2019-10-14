@@ -72,7 +72,80 @@ class Pokedex {
         addToPokedex(poke: arbok)
         
         let pikachu = Pokemon(name: "pikachu", pokedexID: "025")
+        let raichu = Pokemon(name: "raichu", pokedexID: "026")
         addToPokedex(poke: pikachu)
+        addToPokedex(poke: raichu)
+        
+        let sandshrew = Pokemon(name: "sandshrew", pokedexID: "027")
+        let sandslash = Pokemon(name: "sandslash", pokedexID: "028")
+        addToPokedex(poke: sandshrew)
+        addToPokedex(poke: sandslash)
+        
+        let nidoran_f = Pokemon(name: "nidoran_f", pokedexID: "029")
+        let nidorina = Pokemon(name: "nidorina", pokedexID: "030")
+        let nidoqueen = Pokemon(name: "nidoqueen", pokedexID: "031")
+        addToPokedex(poke: nidoran_f)
+        addToPokedex(poke: nidorina)
+        addToPokedex(poke: nidoqueen)
+        
+        let nidoran_m = Pokemon(name: "nidoran_m", pokedexID: "032")
+        let nidorino = Pokemon(name: "nidorino", pokedexID: "033")
+        let nidoking = Pokemon(name: "nidoking", pokedexID: "034")
+        addToPokedex(poke: nidoran_m)
+        addToPokedex(poke: nidorino)
+        addToPokedex(poke: nidoking)
+        
+        let clefairy = Pokemon(name: "clefairy", pokedexID: "035")
+        let clefable = Pokemon(name: "clefable", pokedexID: "036")
+        addToPokedex(poke: clefairy)
+        addToPokedex(poke: clefable)
+        
+        let vulpix = Pokemon(name: "vulpix", pokedexID: "037")
+        let ninetales = Pokemon(name: "ninetales", pokedexID: "038")
+        addToPokedex(poke: vulpix)
+        addToPokedex(poke: ninetales)
+        
+        let jigglypuff = Pokemon(name: "jigglypuff", pokedexID: "039")
+        let wigglytuff = Pokemon(name: "wigglytuff", pokedexID: "040")
+        addToPokedex(poke: jigglypuff)
+        addToPokedex(poke: wigglytuff)
+        
+        let zubat = Pokemon(name: "zubat", pokedexID: "041")
+        let golbat = Pokemon(name: "golbat", pokedexID: "042")
+        addToPokedex(poke: zubat)
+        addToPokedex(poke: golbat)
+        
+        let oddish = Pokemon(name: "oddish", pokedexID: "043")
+        let gloom = Pokemon(name: "gloom", pokedexID: "044")
+        let vileplume = Pokemon(name: "vileplume", pokedexID: "045")
+        addToPokedex(poke: oddish)
+        addToPokedex(poke: gloom)
+        addToPokedex(poke: vileplume)
+        
+        let paras = Pokemon(name: "paras", pokedexID: "046")
+        let parasect = Pokemon(name: "parasect", pokedexID: "047")
+        addToPokedex(poke: paras)
+        addToPokedex(poke: parasect)
+        
+        let venonat = Pokemon(name: "venonat", pokedexID: "048")
+        let venomoth = Pokemon(name: "venomoth", pokedexID: "049")
+        addToPokedex(poke: venonat)
+        addToPokedex(poke: venomoth)
+        
+        let diglett = Pokemon(name: "diglett", pokedexID: "050")
+        let dugtrio = Pokemon(name: "dugtrio", pokedexID: "051")
+        addToPokedex(poke: diglett)
+        addToPokedex(poke: dugtrio)
+        
+        let meowth = Pokemon(name: "meowth", pokedexID: "052")
+        let persian = Pokemon(name: "persian", pokedexID: "053")
+        addToPokedex(poke: meowth)
+        addToPokedex(poke: persian)
+        
+        let psyduck = Pokemon(name: "psyduck", pokedexID: "054")
+        let golduck = Pokemon(name: "golduck", pokedexID: "055")
+        addToPokedex(poke: psyduck)
+        addToPokedex(poke: golduck)
         
         addStarters(grass: bulbasaur, water: squirtle, fire: charmander)
     }

@@ -41,7 +41,7 @@ class PokedexTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Pokemon", for: indexPath) // dequeues recycled cells from table so you can keep scrolling
     
-        
+        cell.backgroundColor = .gray
         cell.textLabel?.text =   "#" + String(pokedex_object.pokedex[indexPath.row].getPokedexID())  + "   " + pokedex_object.pokedex[indexPath.row].getName() // sets the name for the pokemon
         cell.imageView?.image = UIImage(named: pokedex_object.pokedex[indexPath.row].getName())
         return cell
