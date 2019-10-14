@@ -147,6 +147,44 @@ class Pokedex {
         addToPokedex(poke: psyduck)
         addToPokedex(poke: golduck)
         
+        let mankey = Pokemon(name: "mankey", pokedexID: "056")
+        let primeape = Pokemon(name: "primeape", pokedexID: "057")
+        addToPokedex(poke: mankey)
+        addToPokedex(poke: primeape)
+        
+        let growlithe = Pokemon(name: "growlithe", pokedexID: "058")
+        let arcanine = Pokemon(name: "arcanine", pokedexID: "059")
+        addToPokedex(poke: growlithe)
+        addToPokedex(poke: arcanine)
+        
+        let poliwag = Pokemon(name: "poliwag", pokedexID: "060")
+        let poliwhirl = Pokemon(name: "poliwhirl", pokedexID: "061")
+        let poliwrath = Pokemon(name: "poliwrath", pokedexID: "062")
+        addToPokedex(poke: poliwag)
+        addToPokedex(poke: poliwhirl)
+        addToPokedex(poke: poliwrath)
+        
+        let abra = Pokemon(name: "abra", pokedexID: "063")
+        let kadabra = Pokemon(name: "kadabra", pokedexID: "064")
+        let alakazam = Pokemon(name: "alakazam", pokedexID: "065")
+        addToPokedex(poke: abra)
+        addToPokedex(poke: kadabra)
+        addToPokedex(poke: alakazam)
+        
+        let machop = Pokemon(name: "machop", pokedexID: "066")
+        let machoke = Pokemon(name: "machoke", pokedexID: "067")
+        let machamp = Pokemon(name: "machamp", pokedexID: "068")
+        addToPokedex(poke: machop)
+        addToPokedex(poke: machoke)
+        addToPokedex(poke: machamp)
+        
+        let bellsprout = Pokemon(name: "bellsprout", pokedexID: "069")
+        let weepinbell = Pokemon(name: "weepinbell", pokedexID: "070")
+        let victreebel = Pokemon(name: "victreebel", pokedexID: "071")
+        addToPokedex(poke: bellsprout)
+        addToPokedex(poke: weepinbell)
+        addToPokedex(poke: victreebel)
+        
         addStarters(grass: bulbasaur, water: squirtle, fire: charmander)
     }
     
