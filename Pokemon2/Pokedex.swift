@@ -185,6 +185,51 @@ class Pokedex {
         addToPokedex(poke: weepinbell)
         addToPokedex(poke: victreebel)
         
+        let tentacool = Pokemon(name: "tentacool", pokedexID: "072")
+        let tentacruel = Pokemon(name: "tentacruel", pokedexID: "073")
+        addToPokedex(poke: tentacool)
+        addToPokedex(poke: tentacruel)
+        
+        let geodude = Pokemon(name: "geodude", pokedexID: "074")
+        let graveler = Pokemon(name: "graveler", pokedexID: "075")
+        let golem = Pokemon(name: "golem", pokedexID: "076")
+        addToPokedex(poke: geodude)
+        addToPokedex(poke: graveler)
+        addToPokedex(poke: golem)
+        
+        let ponyta = Pokemon(name: "ponyta", pokedexID: "077")
+        let rapidash = Pokemon(name: "rapidash", pokedexID: "078")
+        addToPokedex(poke: ponyta)
+        addToPokedex(poke: rapidash)
+        
+        let slowpoke = Pokemon(name: "slowpoke", pokedexID: "079")
+        let slowbro = Pokemon(name: "slowbro", pokedexID: "080")
+        addToPokedex(poke: slowpoke)
+        addToPokedex(poke: slowbro)
+        
+        let magnemite = Pokemon(name: "magnemite", pokedexID: "081")
+        let magneton = Pokemon(name: "magneton", pokedexID: "082")
+        addToPokedex(poke: magnemite)
+        addToPokedex(poke: magneton)
+        
+        let farfetchd = Pokemon(name: "farfetch'd", pokedexID: "083")//may cause error
+        addToPokedex(poke: farfetchd)
+        
+        let doduo = Pokemon(name: "doduo", pokedexID: "084")
+        let dodrio = Pokemon(name: "dodrio", pokedexID: "085")
+        addToPokedex(poke: doduo)
+        addToPokedex(poke: dodrio)
+        
+        let seel = Pokemon(name: "seel", pokedexID: "086")
+        let dewgong = Pokemon(name: "dewgong", pokedexID: "087")
+        addToPokedex(poke: seel)
+        addToPokedex(poke: dewgong)
+        
+        let grimer = Pokemon(name: "grimer", pokedexID: "088")
+        let muk = Pokemon(name: "muk", pokedexID: "089")
+        addToPokedex(poke: grimer)
+        addToPokedex(poke: muk)
+        
         addStarters(grass: bulbasaur, water: squirtle, fire: charmander)
     }
     
