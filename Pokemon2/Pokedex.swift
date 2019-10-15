@@ -230,6 +230,61 @@ class Pokedex {
         addToPokedex(poke: grimer)
         addToPokedex(poke: muk)
         
+        let shellder = Pokemon(name: "shellder", pokedexID: "090")
+        let cloyster = Pokemon(name: "cloyster", pokedexID: "091")
+        addToPokedex(poke: shellder)
+        addToPokedex(poke: cloyster)
+        
+        let gastly = Pokemon(name: "gastly", pokedexID: "092")
+        let haunter = Pokemon(name: "haunter", pokedexID: "093")
+        let gengar = Pokemon(name: "gengar", pokedexID: "094")
+        addToPokedex(poke: gastly)
+        addToPokedex(poke: haunter)
+        addToPokedex(poke: gengar)
+        
+        let onix = Pokemon(name: "onix", pokedexID: "095")
+        addToPokedex(poke: onix)
+        
+        let drowzee = Pokemon(name: "drowzee", pokedexID: "096")
+        let hypno = Pokemon(name: "hypno", pokedexID: "097")
+        addToPokedex(poke: drowzee)
+        addToPokedex(poke: hypno)
+        
+        let krabby = Pokemon(name: "krabby", pokedexID: "098")
+        let kingler = Pokemon(name: "kingler", pokedexID: "099")
+        addToPokedex(poke: krabby)
+        addToPokedex(poke: kingler)
+        
+        let voltorb = Pokemon(name: "voltorb", pokedexID: "100")
+        let electrode = Pokemon(name: "electrode", pokedexID: "101")
+        addToPokedex(poke: voltorb)
+        addToPokedex(poke: electrode)
+        
+        let exeggcute = Pokemon(name: "exeggcute", pokedexID: "102")
+        let exeggutor = Pokemon(name: "exeggutor", pokedexID: "103")
+        addToPokedex(poke: exeggcute)
+        addToPokedex(poke: exeggutor)
+        
+        let cubone = Pokemon(name: "cubone", pokedexID: "104")
+        let marowak = Pokemon(name: "marowak", pokedexID: "105")
+        addToPokedex(poke: cubone)
+        addToPokedex(poke: marowak)
+        
+        let hitmonlee = Pokemon(name: "hitmonlee", pokedexID: "106")
+        addToPokedex(poke: hitmonlee)
+        
+        let hitmonchan = Pokemon(name: "hitmonchan", pokedexID: "107")
+        addToPokedex(poke: hitmonchan)
+        
+        let lickitung = Pokemon(name: "lickitung", pokedexID: "108")
+        addToPokedex(poke: lickitung)
+        
+        let koffing = Pokemon(name: "koffing", pokedexID: "109")
+        let weezing = Pokemon(name: "weezing", pokedexID: "110")
+        addToPokedex(poke: koffing)
+        addToPokedex(poke: weezing)
+        
+        
         addStarters(grass: bulbasaur, water: squirtle, fire: charmander)
     }
     
