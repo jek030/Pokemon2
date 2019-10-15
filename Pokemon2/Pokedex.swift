@@ -284,6 +284,117 @@ class Pokedex {
         addToPokedex(poke: koffing)
         addToPokedex(poke: weezing)
         
+        let rhyhorn = Pokemon(name: "rhyhorn", pokedexID: "111")
+        let rhydon = Pokemon(name: "rhydon", pokedexID: "112")
+        addToPokedex(poke: rhyhorn)
+        addToPokedex(poke: rhydon)
+        
+        let chansey = Pokemon(name: "chansey", pokedexID: "113")
+        addToPokedex(poke: chansey)
+        
+        let tangela = Pokemon(name: "tangela", pokedexID: "114")
+        addToPokedex(poke: tangela)
+        
+        let kangaskhan = Pokemon(name: "kangaskhan", pokedexID: "115")
+        addToPokedex(poke: kangaskhan)
+        
+        let horsea = Pokemon(name: "horsea", pokedexID: "116")
+        let seadra = Pokemon(name: "seadra", pokedexID: "117")
+        addToPokedex(poke: horsea)
+        addToPokedex(poke: seadra)
+        
+        let goldeen = Pokemon(name: "goldeen", pokedexID: "118")
+        let seaking = Pokemon(name: "seaking", pokedexID: "119")
+        addToPokedex(poke: goldeen)
+        addToPokedex(poke: seaking)
+        
+        let staryu = Pokemon(name: "staryu", pokedexID: "120")
+        let starmie = Pokemon(name: "starmie", pokedexID: "121")
+        addToPokedex(poke: staryu)
+        addToPokedex(poke: starmie)
+        
+        let mrmime = Pokemon(name: "Mr. Mime", pokedexID: "122")
+        addToPokedex(poke: mrmime)
+        
+        let scyther = Pokemon(name: "scyther", pokedexID: "123")
+        addToPokedex(poke: scyther)
+        
+        let jynx = Pokemon(name: "jynx", pokedexID: "124")
+        addToPokedex(poke: jynx)
+        
+        let electabuzz = Pokemon(name: "electabuzz", pokedexID: "125")
+        addToPokedex(poke: electabuzz)
+        
+        let magmar = Pokemon(name: "magmar", pokedexID: "126")
+        addToPokedex(poke: magmar)
+        
+        let pinsir = Pokemon(name: "pinsir", pokedexID: "127")
+        addToPokedex(poke: pinsir)
+        
+        let tauros = Pokemon(name: "tauros", pokedexID: "128")
+        addToPokedex(poke: tauros)
+        
+        let magikarp = Pokemon(name: "magikarp", pokedexID: "129")
+        let gyarados = Pokemon(name: "gyarados", pokedexID: "130")
+        addToPokedex(poke: magikarp)
+        addToPokedex(poke: gyarados)
+        
+        let lapras = Pokemon(name: "lapras", pokedexID: "131")
+        addToPokedex(poke: lapras)
+        
+        let ditto = Pokemon(name: "ditto", pokedexID: "132")
+        addToPokedex(poke: ditto)
+        
+        let eevee = Pokemon(name: "eevee", pokedexID: "133")
+        addToPokedex(poke: eevee)
+        let vaporeon = Pokemon(name: "vaporeon", pokedexID: "134")
+        addToPokedex(poke: vaporeon)
+        let jolteon = Pokemon(name: "jolteon", pokedexID: "135")
+        addToPokedex(poke: jolteon)
+        let flareon = Pokemon(name: "flareon", pokedexID: "136")
+        addToPokedex(poke: flareon)
+        
+        let porygon = Pokemon(name: "porygon", pokedexID: "137")
+        addToPokedex(poke: porygon)
+        
+        let omanyte = Pokemon(name: "omanyte", pokedexID: "138")
+        addToPokedex(poke: omanyte)
+        let omastar = Pokemon(name: "omastar", pokedexID: "139")
+        addToPokedex(poke: omastar)
+        
+        let kabuto = Pokemon(name: "kabuto", pokedexID: "140")
+        addToPokedex(poke: kabuto)
+        let kabutops = Pokemon(name: "kabutops", pokedexID: "141")
+        addToPokedex(poke: kabutops)
+        
+        let aerodactyl = Pokemon(name: "aerodactyl", pokedexID: "142")
+        addToPokedex(poke: aerodactyl)
+        
+        let snorlax = Pokemon(name: "snorlax", pokedexID: "143")
+        addToPokedex(poke: snorlax)
+        
+        let articuno = Pokemon(name: "articuno", pokedexID: "144")
+        addToPokedex(poke: articuno)
+        
+        let zapdos = Pokemon(name: "zapdos", pokedexID: "145")
+        addToPokedex(poke: zapdos)
+        
+        let moltres = Pokemon(name: "moltres", pokedexID: "146")
+        addToPokedex(poke: moltres)
+        
+        let dratini = Pokemon(name: "dratini", pokedexID: "147")
+        addToPokedex(poke: dratini)
+        let dragonair = Pokemon(name: "dragonair", pokedexID: "148")
+        addToPokedex(poke: dragonair)
+        let dragonite = Pokemon(name: "dragonite", pokedexID: "149")
+        addToPokedex(poke: dragonite)
+        
+        let mewtwo = Pokemon(name: "mewtwo", pokedexID: "150")
+        addToPokedex(poke: mewtwo)
+        
+        let mew = Pokemon(name: "mew", pokedexID: "151")
+        addToPokedex(poke: mew)
+        
         
         addStarters(grass: bulbasaur, water: squirtle, fire: charmander)
     }
