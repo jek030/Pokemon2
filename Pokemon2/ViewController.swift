@@ -9,6 +9,7 @@
 
 
 import UIKit
+import CoreMotion
 
 class ViewController: UIViewController {
     var tapCount = 0
@@ -16,14 +17,53 @@ class ViewController: UIViewController {
     var pokedex_object = Pokedex()
 
     @IBOutlet weak var nameLabel: UILabel!
-    
+    @IBOutlet weak var stepsLabel: UILabel!
+    @IBOutlet weak var distanceLabel: UILabel!
 
     @IBOutlet weak var pokedexButton: UIButton!
     @IBOutlet weak var displayPokemonImageButton: UIButton!
     
+    var numberOfSteps:Int = 0
+    var distance:Double = 0
+    var pedometer = CMPedometer()
+    
+    func miles(meters:Double)-> Double{
+        let mile = 0.000621371192
+        return meters * mile
+    }
+    
+   
+    
+    private func startCountingSteps() {
+        pedometer.startUpdates(from: Date()) {
+            [weak self] pedometerData, error in
+            guard let pedometerData = pedometerData, error == nil else { return }
+            
+            DispatchQueue.main.async {
+                self?.stepsLabel.text = "Steps: " + pedometerData.numberOfSteps.stringValue
+                self?.distanceLabel.text = "Miles: \(self!.miles(meters: pedometerData.distance!.doubleValue))" // !.stringValue //in meters
+                
+            }
+        }
+    }
+    
+    private func startUpdating() {
+        
+        if CMPedometer.isStepCountingAvailable() {
+            startCountingSteps()
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        startUpdating()
 
         
         //displayPokemonImageButton.setImage(UIImage(named: "egg"), for: .normal)
