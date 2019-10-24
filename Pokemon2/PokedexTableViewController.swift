@@ -44,6 +44,7 @@ class PokedexTableViewController: UITableViewController {
         cell.backgroundColor = .lightGray
         cell.textLabel?.text =   "#" + String(pokedex_object.pokedex[indexPath.row].getPokedexID())  + "   " + pokedex_object.pokedex[indexPath.row].getName() // sets the name for the pokemon
         cell.imageView?.image = UIImage(named: pokedex_object.pokedex[indexPath.row].getName())
+        
         return cell
     }
 

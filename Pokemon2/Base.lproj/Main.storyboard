@@ -32,8 +32,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qkf-cj-AHa">
-                                <rect key="frame" x="167" y="409" width="80.5" height="127.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qkf-cj-AHa">
+                                <rect key="frame" x="77" y="246" width="80.5" height="127.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k65-V1-iHr">
                                         <rect key="frame" x="0.0" y="0.0" width="80.5" height="99"/>
@@ -71,8 +71,103 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0hP-I3-oPl">
+                                <rect key="frame" x="247" y="246" width="80.5" height="127.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UrK-G9-rnS">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="99"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80.5" id="0c3-wb-E4t"/>
+                                            <constraint firstAttribute="height" constant="99" id="TUg-JV-Mbj"/>
+                                        </constraints>
+                                        <state key="normal" image="egg"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbt-ra-PTo">
+                                        <rect key="frame" x="35.5" y="107" width="10" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4gk-i4-AgV">
+                                <rect key="frame" x="77" y="409" width="80.5" height="127.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SM-47-mFg">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="99"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99" id="YLw-1A-ua8"/>
+                                            <constraint firstAttribute="width" constant="80.5" id="drR-kK-bxj"/>
+                                        </constraints>
+                                        <state key="normal" image="egg"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvJ-wq-jdK">
+                                        <rect key="frame" x="35" y="107" width="10.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AMN-h9-iLQ">
+                                <rect key="frame" x="247" y="409" width="80.5" height="127.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQP-3F-mD2">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="99"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99" id="1sC-bN-lXA"/>
+                                            <constraint firstAttribute="width" constant="80.5" id="eeA-Bf-GNf"/>
+                                        </constraints>
+                                        <state key="normal" image="egg"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yc3-8d-5TA">
+                                        <rect key="frame" x="35" y="107" width="11" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Nz7-K6-j6r">
+                                <rect key="frame" x="77" y="604" width="80.5" height="127.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tp-fv-GJk">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="99"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80.5" id="2wM-FU-tIK"/>
+                                            <constraint firstAttribute="height" constant="99" id="ovF-RA-dtA"/>
+                                        </constraints>
+                                        <state key="normal" image="egg"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuj-1v-uNf">
+                                        <rect key="frame" x="35" y="107" width="10.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UDT-Nm-dxy">
+                                <rect key="frame" x="247" y="604" width="80.5" height="127.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvQ-wm-MIq">
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="99"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="99" id="8mD-aW-qPk"/>
+                                            <constraint firstAttribute="width" constant="80.5" id="zeu-k0-iEZ"/>
+                                        </constraints>
+                                        <state key="normal" image="egg"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7h-m4-28k">
+                                        <rect key="frame" x="35" y="107" width="10.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsR-mr-cve">
-                                <rect key="frame" x="350" y="769" width="44" height="35.5"/>
+                                <rect key="frame" x="350" y="110" width="44" height="35.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35.5" id="xdy-hd-tA6"/>
                                     <constraint firstAttribute="width" constant="44" id="y00-Oe-1bb"/>
@@ -85,22 +180,37 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Qkf-cj-AHa" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="3eF-fg-jRs"/>
+                            <constraint firstItem="Qkf-cj-AHa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="593-87-K4y"/>
+                            <constraint firstItem="Nz7-K6-j6r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="7uK-jm-ALa"/>
+                            <constraint firstItem="UDT-Nm-dxy" firstAttribute="top" secondItem="aQP-3F-mD2" secondAttribute="bottom" constant="96" id="8zf-Qf-g2o"/>
+                            <constraint firstItem="AMN-h9-iLQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="247" id="9bF-gt-mj1"/>
+                            <constraint firstItem="EsR-mr-cve" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="BiZ-RB-QmS"/>
+                            <constraint firstItem="4gk-i4-AgV" firstAttribute="top" secondItem="k65-V1-iHr" secondAttribute="bottom" constant="64" id="EYG-th-e8z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EsR-mr-cve" secondAttribute="trailing" constant="20" id="Ic1-fA-WUP"/>
+                            <constraint firstItem="0hP-I3-oPl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="247" id="Iel-yA-ecQ"/>
+                            <constraint firstItem="Nz7-K6-j6r" firstAttribute="top" secondItem="8SM-47-mFg" secondAttribute="bottom" constant="96" id="Piz-kE-4wA"/>
                             <constraint firstItem="LmK-TT-yWG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SHF-g8-Pcf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EsR-mr-cve" secondAttribute="bottom" constant="57.5" id="Sdu-0V-6bb"/>
+                            <constraint firstItem="0hP-I3-oPl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="X64-Z9-gw1"/>
                             <constraint firstItem="LmK-TT-yWG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="XuB-9m-36x"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EsR-mr-cve" secondAttribute="trailing" constant="20" id="gGk-M7-IDv"/>
-                            <constraint firstItem="Qkf-cj-AHa" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jb8-2I-5Zb"/>
+                            <constraint firstItem="AMN-h9-iLQ" firstAttribute="top" secondItem="UrK-G9-rnS" secondAttribute="bottom" constant="64" id="d80-PZ-MFz"/>
+                            <constraint firstItem="4gk-i4-AgV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="g8h-bi-wjJ"/>
+                            <constraint firstItem="UDT-Nm-dxy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="247" id="pXW-tS-Y27"/>
+                            <constraint firstItem="Qkf-cj-AHa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="158" id="wL8-Hi-2ea"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="6CM-bh-c4P"/>
                     <connections>
+                        <outlet property="bottomLeftPokemonImageButton" destination="3tp-fv-GJk" id="Ivp-Oq-x1X"/>
+                        <outlet property="bottomRightPokemonImageButton" destination="HvQ-wm-MIq" id="VfU-Zs-1R5"/>
                         <outlet property="displayPokemonImageButton" destination="k65-V1-iHr" id="7FW-OM-B73"/>
                         <outlet property="distanceLabel" destination="yik-4u-hU9" id="xjd-4l-jmP"/>
+                        <outlet property="middleLeftPokemonImageButton" destination="8SM-47-mFg" id="uK4-7r-G08"/>
+                        <outlet property="middleRightPokemonImageButton" destination="aQP-3F-mD2" id="VVf-sh-9Mk"/>
                         <outlet property="nameLabel" destination="Xj8-s4-F9X" id="2os-yX-B4r"/>
                         <outlet property="pokedexButton" destination="EsR-mr-cve" id="EUH-qD-8DH"/>
                         <outlet property="stepsLabel" destination="PGS-fT-yZB" id="hTI-ab-Pmx"/>
+                        <outlet property="topRightPokemonImageButton" destination="UrK-G9-rnS" id="N9v-Nt-tOJ"/>
                         <segue destination="Abo-2A-FA9" kind="show" identifier="SegueToPokedex" id="CS9-KK-ac8"/>
                     </connections>
                 </viewController>
